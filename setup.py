@@ -1,10 +1,8 @@
-import os
-
 from setuptools import find_packages, setup
 
 setup(
     name='carbon-zero',
-    version='0.0.' + os.environ.get('BUILD_NUMBER', '0'),
+    version='0.0',
     description='Carbon footprint calculator',
     maintainer='Jaime McCandless',
     maintainer_email='jaime.m.mccandless@gmail.com',
